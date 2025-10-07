@@ -1,9 +1,9 @@
 #!/usr/bin/env ts-node
 
-import * as XLSX from 'xlsx';
+import XLSX from 'xlsx';
 import * as fs from 'fs';
 import * as path from 'path';
-import { TvGuideJSON, TvGuideRow, TZ } from '../src/types/tvguide.js';
+import { TvGuideJSON, TvGuideRow, TZ } from '../src/types/tvguide';
 
 interface ConvertOptions {
   excel: string;
@@ -22,7 +22,9 @@ function parseArgs(): ConvertOptions {
     const value = args[i + 1];
     
     if (key && value) {
-      (options as any)[key] = value;
+      // Map kebab-case to camelCase
+      const mappedKey = key === 'tz-map' ? 'tzMap' : key;
+      (options as any)[mappedKey] = value;
     }
   }
 
@@ -152,7 +154,7 @@ function convertExcelToJSON(options: ConvertOptions): void {
 }
 
 // Main execution
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (import.meta.url === `file://${process.argv[1]}` || process.argv[1]?.includes('convert-excel-to-json.ts')) {
   const options = parseArgs();
   convertExcelToJSON(options);
 }
