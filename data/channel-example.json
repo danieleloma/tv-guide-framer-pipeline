@@ -1,0 +1,114 @@
+{
+  "channelId": "zee-world",
+  "regions": ["South Africa", "Rest Of Africa"],
+  "timezonesByRegion": {
+    "South Africa": ["CAT"],
+    "Rest Of Africa": ["WAT","CAT","EST"]
+  },
+  "rows": [
+    {
+      "Region": "South Africa",
+      "Date": "Monday, October 6, 2025",
+      "Start Time": "5:00",
+      "End Time": "5:30",
+      "Title": "Sister Wives S1 Ep 142",
+      "Season": "1",
+      "Episode": "142",
+      "Subtitle": "",
+      "Text Color": "#FFFFFF",
+      "BG Color": "#222222",
+      "Timezone": "CAT"
+    },
+    {
+      "Region": "South Africa",
+      "Date": "Monday, October 6, 2025",
+      "Start Time": "5:30",
+      "End Time": "6:00",
+      "Title": "The Bold and the Beautiful",
+      "Season": "38",
+      "Episode": "45",
+      "Subtitle": "A New Beginning",
+      "Text Color": "#000000",
+      "BG Color": "#FFD700",
+      "Timezone": "CAT"
+    },
+    {
+      "Region": "South Africa",
+      "Date": "Monday, October 6, 2025",
+      "Start Time": "6:00",
+      "End Time": "6:30",
+      "Title": "Young and Restless",
+      "Season": "52",
+      "Episode": "12",
+      "Subtitle": "",
+      "Text Color": "#FFFFFF",
+      "BG Color": "#1A1A1A",
+      "Timezone": "CAT"
+    },
+    {
+      "Region": "Rest Of Africa",
+      "Date": "Monday, October 6, 2025",
+      "Start Time": "6:30",
+      "End Time": "7:00",
+      "Title": "Radhe Mohan S4 EP 2",
+      "Season": "4",
+      "Episode": "2",
+      "Subtitle": "",
+      "Text Color": "#EDEDED",
+      "BG Color": "#1A1A1A",
+      "Timezone": "WAT"
+    },
+    {
+      "Region": "Rest Of Africa",
+      "Date": "Monday, October 6, 2025",
+      "Start Time": "7:00",
+      "End Time": "7:30",
+      "Title": "Kumkum Bhagya",
+      "Season": "9",
+      "Episode": "156",
+      "Subtitle": "Love Conquers All",
+      "Text Color": "#FFFFFF",
+      "BG Color": "#8B0000",
+      "Timezone": "WAT"
+    },
+    {
+      "Region": "Rest Of Africa",
+      "Date": "Monday, October 6, 2025",
+      "Start Time": "7:30",
+      "End Time": "8:00",
+      "Title": "Kundali Bhagya",
+      "Season": "7",
+      "Episode": "89",
+      "Subtitle": "",
+      "Text Color": "#000000",
+      "BG Color": "#FFA500",
+      "Timezone": "WAT"
+    },
+    {
+      "Region": "South Africa",
+      "Date": "Tuesday, October 7, 2025",
+      "Start Time": "5:00",
+      "End Time": "5:30",
+      "Title": "Sister Wives S1 Ep 143",
+      "Season": "1",
+      "Episode": "143",
+      "Subtitle": "",
+      "Text Color": "#FFFFFF",
+      "BG Color": "#222222",
+      "Timezone": "CAT"
+    },
+    {
+      "Region": "Rest Of Africa",
+      "Date": "Tuesday, October 7, 2025",
+      "Start Time": "6:30",
+      "End Time": "7:00",
+      "Title": "Radhe Mohan S4 EP 3",
+      "Season": "4",
+      "Episode": "3",
+      "Subtitle": "",
+      "Text Color": "#EDEDED",
+      "BG Color": "#1A1A1A",
+      "Timezone": "WAT"
+    }
+  ]
+}
