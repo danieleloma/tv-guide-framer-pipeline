@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import TvGuide from './components/TvGuide.tsx'
+import TvGuide from './components/TvGuide'
 import sampleData from '../data/channel-example.json'
 
 // Convert sample data to JSON string for the component

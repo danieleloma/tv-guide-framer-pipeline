@@ -36,8 +36,8 @@ export function useTvGuide(
     );
 
     // Get unique days and times from filtered data
-    const days = [...new Set(filteredRows.map(row => row.Date))].sort();
-    const times = [...new Set(filteredRows.map(row => row['Start Time']))];
+    const days = Array.from(new Set(filteredRows.map(row => row.Date))).sort();
+    const times = Array.from(new Set(filteredRows.map(row => row['Start Time'])));
     const sortedTimes = sortTimeStrings(times);
 
     // Build grid structure: { [day]: { [time]: TvGuideRow[] } }
